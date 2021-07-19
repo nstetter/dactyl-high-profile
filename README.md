@@ -8,9 +8,13 @@ There are some hacks in here to get the border walls and thumb cluster to line u
 I didn't build this script with the goal of making it easy to share and extend... so if you're using this repo as a starting point for your own dactyl build, good luck, and beware of some shard edges.
 
 ## Generating OpenSCAD Models
-This script is tested against Python 3.8.0
+This script is tested against Python 3.9.0
 
-Intall dependencies with `pip install -r requirements.txt`
+Create a virtual environment with `python3 -m venv venv`
+
+Activate the newly created venv with `source venv/bin/activate`
+
+Intall dependencies with `python3 -m pip install -r requirements.txt`
 
 Run a one-off scad model build with `make run`
 
